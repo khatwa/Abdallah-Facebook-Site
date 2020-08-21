@@ -24,7 +24,7 @@
         <nav class="navbar navbar-expand-lg navbar-light header" style="background-color: #d3c09a;">
 
             <a class="navbar-brand" href="#">
-                <img src="./favicon.ico" width="30" height="30" alt="">
+                <img src="./images/favicon.ico" width="30" height="30" alt="">
             </a>
 
             <div class="input-group ">
@@ -38,17 +38,19 @@
                     </span>
                 </div>
             </div>
-
+            <!-- **********************Button for toggling******************** -->
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
+
+            <!-- *********************Toggeled data*************** -->
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item active">
                         <a class="nav-link" href="#">
-                            <img class="img" src="./fola.jpg" alt=""> Fola
+                            <img class="img" src="./images/fola.jpg" alt=""> Fola
                         </a>
                     </li>
                     <li class="nav-item active">
@@ -63,7 +65,7 @@
                         </a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link " href="#">
+                        <a class="nav-link "  href="#">
                             <i class="fab fa-facebook-messenger"></i>
                         </a>
                     </li>
@@ -94,11 +96,11 @@
             </div>
         </nav>
 
-        <!--********************************* Grid system ******************* -->
+        <!--********************************* Grid system ************************************************** -->
         <div class="row">
             <!-- ****************** Left *********************** -->
-            <div class="col-2 ">
-                <p><img class="img" src="./fola.jpg" alt=""> Fola</p>
+            <div class="col-2 left-grid">
+                <p><img class="img" src="./images/fola.jpg" alt=""> Fola</p>
                 <ul class="no-bullets ">
                     <li>
                         <i class="far fa-newspaper"></i>
@@ -112,57 +114,66 @@
                 </ul>
             </div>
 
-            <!-- **********************Middle******************** -->
-            <div class="col-8">
+            <!-- ********************** Middle ******************** -->
+            <div class="col-lg-8 col-md-12 middle-grid">
                 <div class="card ">
                     <div class="card-header">
                         create post
                     </div>
                     <div class="card-body">
                         <div>
-                            <img class="img float" src="./fola.jpg" alt="">
+                            <img class="img float" src="./images/fola.jpg" alt="">
                             <input type="text" style="border:none; background: transparent; outline: 0;"
                                 placeholder=" Build for the long term.." />
                         </div>
                     </div>
                     <div class="card-footer text-muted">
-                        <a class="a" class="card-link" href="#">
-                            <i class="fas fa-video"></i>
-                            create room
-                        </a>
-                        <a class="a" class="card-link" href="#">
-                            <i class="fas fa-image"></i> photo/vedio
-                        </a>
-                        <a class="a" class="card-link" href="#">
-                            <i class="fas fa-user-shield"></i>
-                            tag friend
-                        </a>
+                        <div class="row">
+                            <div class="col-lg-4 col-sm-6">
+                                <a class="a card-link" href="#">
+                                    <i class="fas fa-video"></i>
+                                    create room
+                                </a>
+                            </div>
+                            <div class="col-lg-4 col-sm-6">
+                                <a class="a card-link" href="#">
+                                    <i class="fas fa-image"></i> photo/vedio
+                                </a>
+                            </div>
+                            <div class="col-lg-4 ">
+                                <a class="a card-link" href="#">
+                                    <i class="fas fa-user-shield"></i>
+                                    tag friend
+                                </a>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
 
                 <!-- facebook post -->
                 <div class="card">
                     <div class="card-body">
-                        <img class="img float" src="./download (1).jpeg" alt="">
+                        <img class="img float" src="./images/download (1).jpeg" alt="">
                         <h5 class="card-title">Elon Musk</h5><br>
                         <p class="post-time">1h.</p>
                         <span class="material-icons">public</span>
                         <p class="card-text">
-                            Rather by reasoning by anology you boil things down to the most important truth you can
+                            Rather than reasoning by anology you boil things down to the most important truth you can
                             imagine, and then you reason up from there, and it's a good way to figure out if something
                             really make sense! or if it's what everybody else's doing.
                         </p>
                         <hr>
                         <!-- facebook icon for post1 -->
                         <div class="row">
-                            <div class="col-4">
-                                <a class="a" class="" href="#"><i class="far fa-thumbs-up"></i> like</a>
+                            <div class="col-lg-4 col-sm-6">
+                                <a href="#"><i class="far fa-thumbs-up"></i> like</a>
                             </div>
-                            <div class="col-4">
-                                <a class="a" class="" href="#"><i class="far fa-comment"></i> comment</a>
+                            <div class="col-lg-4 col-sm-6">
+                                <a href="#"><i class="far fa-comment"></i> comment</a>
                             </div>
-                            <div class="col-4">
-                                <a class="a" class="" href="#"><i class="fas fa-share"></i> share</a>
+                            <div class="col-lg-4 ">
+                                <a href="#"><i class="fas fa-share"></i> share</a>
                             </div>
                         </div>
                     </div>
@@ -171,7 +182,7 @@
                 <div class="card">
                     <div class="card-body">
                         <div class="">
-                            <img class="img float" src="./download.jpeg" alt="poster">
+                            <img class="img float" src="./images/download.jpeg" alt="poster">
                             <h5 class="card-title">جابر بن حيان</h5><br>
                             <p class="post-time">2h.</p>
                             <span class="material-icons">public</span>
@@ -184,56 +195,75 @@
                             وقال عنه الفيلسوف الإنكليزي فرانسيس بيكون: "إن جابر بن حيان هو أول من علّم علم الكيمياء
                             للعالم، فهو أبو الكيمياء"، وقال عنه العالم الكيميائي الفرنسي مارسيلان بيرتيلو في كتابه
                             (كيمياء القرون الوسطى): "إن لجابر بن حيان في الكيمياء ما لأرسطو في المنطق".
-                         </p>
+                        </p>
                         <hr>
                         <!-- facebook icon for post2-->
                         <div class="row">
-                            <div class="col-4">
-                                <a class="a" class="" href="#"><i class="far fa-thumbs-up"></i> like</a>
+                            <div class="col-lg-4 col-sm-6">
+                                <a class="a" href="#"><i class="far fa-thumbs-up"></i> like</a>
                             </div>
-                            <div class="col-4">
-                                <a class="a" class="" href="#"><i class="far fa-comment"></i> comment</a>
+                            <div class="col-lg-4 col-sm-6">
+                                <a class="a" href="#"><i class="far fa-comment"></i> comment</a>
                             </div>
-                            <div class="col-4">
-                                <a class="a" class="" href="#"><i class="fas fa-share"></i> share</a>
+                            <div class="col-lg-4 ">
+                                <a class="a" href="#"><i class="fas fa-share"></i> share</a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <!--**************************** Right *******************-->
-            <div class="col-2 ">
+            <!--********************** Right *******************-->
+            <div class="col-2 right-grid " >
                 <div class="vl">
                     <ul class="no-bullets ">
                         <li class="friend">
-                            <img class="img" src="./folder.jpg" alt="">
-                            Abdallah
+                            <a href="#">
+                                <img class="img" src="./images/folder.jpg" alt="">
+                                Abdallah
+                            </a>
+
                         </li>
                         <li class="friend">
-                            <img class="img" src="./folder4.jpg" alt="">
-                            Mohammed
+                            <a href="#">
+                                <img class="img" src="./images/folder4.jpg" alt="">
+                                Mohammed
+                            </a>
+
                         </li>
                         <li class="friend">
-                            <img class="img" src="./folder1.jpg" alt="">
-                            Marwa
+                            <a href="#">
+                                <img class="img" src="./images/folder1.jpg" alt="">
+                                Marwa
+                            </a>
+
                         </li>
                         <li class="friend">
-                            <img class="img" src="./folder2.jpg" alt="">
-                            Abobaker
+                            <a href="#">
+                                <img class="img" src="./images/folder2.jpg" alt="">
+                                Abobaker
+                            </a>
+
                         </li>
                         <li class="friend">
-                            <img class="img" src="./folder3.jpg" alt="">
-                            Mustafa
+                            <a href="#">
+                                <img class="img" src="./images/folder3.jpg" alt="">
+                                Mustafa
+                            </a>
+
                         </li>
                         <li class="friend">
-                            <img class="img" src="./folder4.jpg" alt="">
-                            Abdelmoniem
+                            <a href="#">
+                                <img class="img" src="./images/folder4.jpg" alt="">
+                                Abdelmoniem
+                            </a>
+
                         </li>
                     </ul>
                 </div>
             </div>
         </div>
         </div>
+
 
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -246,6 +276,13 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
             integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
             crossorigin="anonymous"></script>
+
+        <footer>
+            <div id="footer">
+                <p>made with ❤️ by fola</p>
+            </div>
+        </footer>
     </body>
+
 
 </html>
